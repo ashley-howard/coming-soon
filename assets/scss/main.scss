@@ -10,7 +10,6 @@ cursive;
 $body-font:'Rosario',
 sans-serif;
 
-
 body {
     background: $aqua;
     font-family: $body-font;
@@ -128,20 +127,15 @@ main {
     transform: rotate(20deg);
 }
 
-
 @media screen and (max-width: 576px) {
     .container {
         width: 90% !important;
 
-        // p {
-        //     padding: 10px;
-        // }
-         h1 {
+        h1 {
             font-size: 2em;
         }
 
         .links {
-            // font-size: 0.8em;
             flex-direction: column;
             align-items: unset;
 
